@@ -445,6 +445,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: index * 0.05 }}
+                className={service === "And More!" ? "hidden lg:block" : ""}
               >
                 <div 
                   className="group relative h-36 sm:h-44 md:h-52 rounded-lg overflow-hidden border border-white/10 hover:border-red-500/50 transition-all duration-500"
@@ -477,10 +478,6 @@ export default function Home() {
                       >
                         {service}
                       </h3>
-                    </div>
-                    {/* Reveal on hover */}
-                    <div className="h-0 group-hover:h-6 overflow-hidden transition-all duration-300">
-                      <p className="text-xs text-gray-300 mt-1">Learn more →</p>
                     </div>
                   </div>
                   
@@ -758,6 +755,14 @@ export default function Home() {
                     <div>
                       <p className="font-semibold text-black">{siteData.company.contact.operator} (Operator)</p>
                       <a href={`tel:${siteData.company.contact.operatorPhone}`} className="text-gray-900 hover:text-red-600 underline focus:outline-none focus:ring-2 focus:ring-red-500 rounded">{siteData.company.contact.operatorPhone}</a>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start space-x-3">
+                    <Phone className="h-5 w-5 text-red-600 mt-1" aria-hidden="true" />
+                    <div>
+                      <p className="font-semibold text-black">{siteData.company.contact.operator2} (Operator)</p>
+                      <a href={`tel:${siteData.company.contact.operator2Phone}`} className="text-gray-900 hover:text-red-600 underline focus:outline-none focus:ring-2 focus:ring-red-500 rounded">{siteData.company.contact.operator2Phone}</a>
                     </div>
                   </div>
 

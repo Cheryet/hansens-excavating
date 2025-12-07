@@ -15,7 +15,9 @@ const siteData = {
       owner: "Devin Hansen",
       ownerPhone: "(403) 634-2262",
       operator: "Ben Dyck",
-      operatorPhone: "(403) 308-9761"
+      operatorPhone: "(403) 308-9761",
+      operator2: "Aaron Hoffman",
+      operator2Phone: "(403) 715-3112"
     }
   },
   mission: {
