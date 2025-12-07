@@ -31,8 +31,8 @@ export const metadata = {
     apple: '/favicon.svg',
   },
   
-  // Canonical URL
-  metadataBase: new URL('https://hansensexcavating.com'),
+  // Canonical URL - using Vercel URL until custom domain is set up
+  metadataBase: new URL('https://hansens-excavating.vercel.app'),
   alternates: {
     canonical: '/',
   },
@@ -54,7 +54,7 @@ export const metadata = {
   openGraph: {
     title: "Hansen's Excavating & Trucking",
     description: "Southern Alberta's trusted partner for oil & gas excavation, land reclamation, and commercial earthmoving since 1976.",
-    url: 'https://hansensexcavating.com',
+    url: 'https://hansens-excavating.vercel.app',
     siteName: "Hansen's Excavating & Trucking",
     locale: 'en_CA',
     type: 'website',
