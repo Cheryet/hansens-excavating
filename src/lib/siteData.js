@@ -16,7 +16,7 @@ const siteData = {
       ownerPhone: "(403) 634-2262",
       operator: "Ben Dyck",
       operatorPhone: "(403) 308-9761",
-      operator2: "Aaron Hoffman",
+      operator2: "Aaron Hofman",
       operator2Phone: "(403) 715-3112"
     }
   },
