@@ -217,7 +217,7 @@ export default function Home() {
                   >
                     Contact
                   </a>
-                  <Separator className="my-2" />
+                  <div className="my-2 h-px bg-gray-200" />
                   <a 
                     href={`tel:${siteData.company.contact.phone}`}
                     className="flex items-center justify-center space-x-2 bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-4 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
